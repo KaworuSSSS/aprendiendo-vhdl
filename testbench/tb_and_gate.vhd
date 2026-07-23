@@ -48,6 +48,10 @@ begin
     B <= '1';
     wait for 10 ns;
 
+    A <= '0';
+    B <= '1';
+    wait for 10 ns;
+
 
     wait;
 
